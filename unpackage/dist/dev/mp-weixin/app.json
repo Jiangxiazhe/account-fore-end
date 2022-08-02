@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/suppliers/suppliers",
+    "pages/customers/customers",
+    "pages/manage/manage"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uniapp",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "查询",
+        "iconPath": "./static/c1.png",
+        "selectedIconPath": "./static/c2.png"
+      },
+      {
+        "pagePath": "pages/suppliers/suppliers",
+        "text": "供应商",
+        "iconPath": "./static/c3.png",
+        "selectedIconPath": "./static/c4.png"
+      },
+      {
+        "pagePath": "pages/customers/customers",
+        "text": "客户",
+        "iconPath": "./static/c5.png",
+        "selectedIconPath": "./static/c6.png"
+      },
+      {
+        "pagePath": "pages/manage/manage",
+        "text": "管理",
+        "iconPath": "./static/c5.png",
+        "selectedIconPath": "./static/c6.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

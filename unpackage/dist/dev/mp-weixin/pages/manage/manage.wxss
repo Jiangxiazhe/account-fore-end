@@ -1,0 +1,10 @@
+
+.uni-data-select{
+		margin: 5px;
+}
+.uni-forms-item{
+		margin: 10px;
+}
+.bsub{
+		margin-left: 70%;
+}

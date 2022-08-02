@@ -1,0 +1,86 @@
+{
+	"pages": [{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"backgroundColorTop": "#2b4b6b"
+            }
+        }
+        ,{
+            "path" : "pages/suppliers/suppliers",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/customers/customers",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/manage/manage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/addGoods/addGoods",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#2b4c6d"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uniapp",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "查询",
+				"iconPath": "./static/c1.png",
+				"selectedIconPath": "./static/c2.png"
+			},
+			{
+				"pagePath": "pages/suppliers/suppliers",
+				"text": "供应商",
+				"iconPath": "./static/c3.png",
+				"selectedIconPath": "./static/c4.png"
+			},
+			{
+				"pagePath": "pages/customers/customers",
+				"text": "客户",
+				"iconPath": "./static/c5.png",
+				"selectedIconPath": "./static/c6.png"
+			},
+			{
+				"pagePath": "pages/manage/manage",
+				"text": "管理",
+				"iconPath": "./static/c5.png",
+				"selectedIconPath": "./static/c6.png"
+			}
+		]
+	}
+}
